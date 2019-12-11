@@ -1,0 +1,150 @@
+.container-fluid {
+   padding: 0;
+   margin: 0;
+}
+
+.navbar {
+   background-color: transparent;
+   border: none;
+}
+.nav li a:hover,
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-default {
+    border-color: transparent;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(17,17,17,.5)
+}
+
+.navbar-default .navbar-nav >li > a {
+
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a
+
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #f8512f;
+    background-color: rgba(17,17,17,.2);
+}
+
+nav.navbar {
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+}
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+
+ .navbar {
+     color: red;
+ }
+
+ /* Typewriter Effect */
+
+ /* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.type {
+      height: calc(100vh - 8em);
+      padding: 4em;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: 'Anonymous Pro', monospace;
+      background-color: rgb(25, 25, 25);
+      min-height: 100%;
+      overflow: hidden;
+}
+
+.line {
+      position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 16em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
