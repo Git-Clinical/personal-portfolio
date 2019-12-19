@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+    <!-- NAVBAR SECTION -->
         <nav class="navbar navbar-fixed-top navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -21,38 +22,387 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Brand Logo"></a>
+                        <a class="navbar-brand" href="#"><img class="img-circle" src="img/me.jpg" alt="Brand Logo"></a>
                       </div>
         
         
                       <div class="collapse navbar-collapse" id="headerNav">
                           <ul class="nav navbar-nav navbar-right">
-                              <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
-                              <li><a href="#Resume">Resume</a></li>
-                              <li><a href="#Portfolio">Portfolio</a></li>
+                              <li><a href="#about_me">About Me</a></li>
+                              <li><a href="#portfolio">Portfolio</a></li>
+                              <li><a href="#resume">Resume</a></li>
                               <li><a href="#contact">Contact Me</a></li>
                           </ul>
                       </div>
                 </div>
             </nav>
 
-    <div class="container-fluid demo">
-        <div class="content">
-           <div id="large-header" class="large-header">
-              <canvas id="demo-canvas"></canvas>
-              <h1 class="main-title"><span class="thin">Hi, I'm</span> Chris</h1>
-           </div>
+    <!-- END OF NAVBAR SECTION -->
+
+   <!-- Carousel Section -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+	  
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+		  <div class="item active main_img1">
+			<div class="carousel-caption">
+                <h1 class="center-block">Chris Lieder</h1>
+                <h2 class="center-block">Backend Developer</h2>
+			</div>
+		  </div>
+		  <div class="item main_img2">
+			<div class="carousel-caption">
+			  <h1 class="center-block">Father</h1>
+			</div>
+		  </div>
+		  <div class="item main_img3">
+			  <div class="carousel-caption">
+				  <h1>Musician</h1>
+			  </div>
+		  </div>
+		</div>
+	  
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>
+<!-- End of Carousel -->
+
+<!-- About Me -->
+<div id="about_me" class="container-fluid">
+	<div class="center_center">
+		<div class="col-sm-12 col-xs-offset-1">
+			<h1>Hey!</h1>
+            <p>I'm Chris Lieder from Fresno, California! <br> I love programming, spending time with my family, playing guitar and watching superhero movies! <br>  Feel free to get in touch or take a look at my past work below.
+            </p>
+		</div>
+	</div>
+</div>
+<!-- END OF About Me -->
+<!-- PORTFOLIO SECTION -->
+<div id="portfolio" class="container-fluid">
+	<div class="row text-center">
+		<div class="col-sm-8 col-md-12">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3BGe4OZIAKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    <div class="caption">
+                      <h3>Automated Poker Table</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail">
+                      <img src="..." alt="...">
+                      <div class="caption">
+                        <h3>Restaurante Site</h3>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+		</div>
+	</div>
+</div>
+<!-- END PORTFOLIO -->
+
+<!-- RESUME SECTION -->
+<div id="resume">
+	<div class="container">
+		<div class="row text-center">
+			<h1>Resume</h1>
         </div>
-     </div>
+        <h2>Summary</h2>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Experienced and highly motivated Mechanical Engineer with a background in many industries ranging from construction, control systems, machine design, manufacturing, energy systems, defense and sales.
+            </div>
+          </div>
+<hr>
+        <h2>Education</h2>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">California State University, Fresno - 2012</h3>
+            </div>
+            <div class="panel-body">
+              <ul>  
+               <li class="text">  
+                Bachelor of Science in Mechanical Engineering - Magna Cum Laude (3.95 Major GPA)
+            </li> 
+            <li>  
+                Husband-Boeing Engineering Honors Scholar (Full Ride Scholarship)
+            </li> 
+            <li> 
+                President - Mechatronics Club - CSU Fresno
+            </li> 
+            <li>  
+                President - American Society of Heating, Refrigeration and Air Conditioning Engineers - CSU Fresno Chapter
+            </li> 
+            <li>  
+                Secretary - American Society of Mechanical Engineers - CSU Fresno Chapter
+            </li> 
+            <li>  
+                Controls Lead/ Autonomous Waste Sorter - ASME Student Professional Design Competition, First Place at Regionals
+            </li> 
+            </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Geekwise Industries - 2019</h3>
+            </div>
+            <div class="panel-body">
+              <ul>  
+               <li>  
+                Websites for Beginners (HTML & CSS)
+            </li> 
+            <li>  
+                Mobile Friendly Websites (Bootstrap and responsive web design)
+            </li> 
+            </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Center for Advanced Research & Technology - 2003</h3>
+            </div>
+            <div class="panel-body">
+              <ul>  
+               <li>  
+                Engineering Product Design
+            </li> 
+            <li>  
+                Engineering Development
+            </li> 
+            </ul>
+            </div>
+          </div>
+<hr>
+<h2>Professional</h2>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Pacific Gas & Electric - Engineering Estimator - Electric</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                     Responsible for designing electric service for telecomunications companies
+                 </li> 
+                 <li>  
+                    Develop business tools using VBA script/ Excel for project management and reporting.
+                </li> 
+                 </ul>
+            </div>
+          </div>
 
-     
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trelleborg Sealing Solutions</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                        Successfully managed projects from cradle (design concept) to grave (full OEM production) for some of the highest profile customers at TSS, resulting in increased sales and profit for the business unit
+                 </li> 
+                 <li>  
+                    Responsible for the maintenance and growth of a $4 million sales territory from Fresno to Los Angeles
+                </li> 
+                <li>  
+                    Designed complex sealing systems with and for customers for OEM at any one of 30+ TSS factories
+                </li> 
+                <li>  
+                    Main industries served: Electric Vehicles (Tesla), Oil & Gas (NOV), Irrigation (Rain Bird), Vehicle Suspension (FOX Factory, Inc.), and Racing (Toyota & Honda)
+                </li> 
+                 </ul>
+            </div>
+          </div>
 
-     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed soluta aut. Incidunt neque vel earum necessitatibus, perspiciatis hic, doloribus error alias adipisci laborum, esse commodi iste suscipit aliquam laboriosam. Commodi adipisci mollitia fugiat quae, iusto odio! Cumque ea eligendi sunt deleniti possimus minus in commodi itaque repudiandae, saepe quas delectus excepturi quo distinctio fugit iusto ab? Placeat consequatur cumque molestias qui voluptatibus perferendis atque? Voluptatem, magnam ad hic unde saepe cupiditate dolore numquam eveniet adipisci excepturi similique exercitationem maxime rem eos alias, debitis dicta nostrum! Ullam, ab delectus in quis dolorem magnam quo praesentium natus porro expedita qui eligendi fugiat earum necessitatibus consequuntur velit! Assumenda molestias voluptates libero vel ad consequatur numquam adipisci quaerat officia, animi voluptate reiciendis magni a! Odit rerum placeat sapiente, quidem pariatur et blanditiis voluptas praesentium velit voluptatum obcaecati distinctio maxime ex consectetur tempore quisquam ullam exercitationem saepe commodi minus perspiciatis adipisci nulla! Dolores accusamus expedita nemo odio incidunt, architecto facilis? Recusandae quam eius, asperiores quod eveniet id consectetur molestiae, perspiciatis repellendus illo magni assumenda, temporibus accusantium fugit ullam cupiditate odio deserunt accusamus. Nam est iusto reprehenderit, alias dolorem accusamus quos eius ratione doloremque laborum explicabo? Quidem atque, a totam sed minus illo doloremque suscipit non deserunt quasi vitae possimus eos! Similique vitae ratione, quod inventore debitis adipisci ullam a temporibus sequi asperiores, iusto provident? Animi, dolore consequuntur? Non vero ipsam voluptatem iusto architecto, perspiciatis odit sequi magnam repellat fugiat corporis consectetur cumque! Recusandae modi ratione, debitis temporibus atque incidunt maxime esse blanditiis iste culpa tempora assumenda odio perferendis libero consequuntur nobis deleniti nisi doloribus minima aut nihil aperiam ullam! Dolorem est debitis iure voluptatibus pariatur culpa provident. Totam quasi, voluptatem, sunt repellat sit itaque sapiente nobis, dignissimos odit eum molestias provident hic doloremque maiores. Minus perferendis eius at nemo laudantium ea, saepe expedita nulla.</div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">International Paper, Foodservice Business</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                        Responsible for plant process improvements (project management) and efficiency programs
 
-     <p class="container-fluid line anim-typewriter type">Typewriter effect using css()</p>
+                 </li> 
+                 <li>  
+                    Implemented compressor system energy efficiency upgrades with Southern California Edison
+                </li> 
+                <li>  
+                    Resolved several mechanical and control system software issues with various machines, all resulting in efficiency gains and cost savings
+                </li> 
+                 </ul>
+            </div>
+          </div>
 
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Edwards Air Force Base - RF Measurement Element</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                        Responsible for antenna measurement test planning, support, and reporting
+
+                 </li> 
+                 <li>  
+                    Trained in the basics of antennas, radar systems, and electronic counter measures (e.g. radar or missile acquisition system jamming)
+                </li> 
+                <li>  
+                    Managed installed and uninstalled antenna pattern (gain) measurements in anechoic chambers to reduce electromagnetic radiation noise and antenna reflections
+                </li> 
+                 </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Lawrence-Nye-Andersen Associates</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                        Prepared building energy load calcs for HVAC system design from architectural and electrical drawings
+                 </li> 
+                 <li>  
+                    Coordinated building efficiency rebate programs (Energy Star) & managed CEC Title-24 submissions
+
+                </li> 
+                 </ul>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">MEC Aerial Work Platforms</h3>
+            </div>
+            <div class="panel-body">
+                <ul>  
+                    <li>  
+                        Designed complex mechanical systems and weldments with 3D CAD software
+
+                 </li> 
+                 <li>  
+                    Developed and coordinated bill of materials, costing, and assembly work instructions for manufacturing line
+                </li> 
+                <li>  
+                    Completed life cycle testing of products and subsystems
+
+                </li> 
+                <li>  
+                    Responsible for drafting electrical wiring diagrams for legacy machines using AutoCAD
+                </li> 
+                <li>  
+                    Worked closely with R&D and production to implement many cost reducing design changes to existing scissor lift designs
+                </li> 
+                 </ul>
+            </div>
+          </div>
+	</div>
+</div>
+<!-- END RESUME -->
+
+<!-- CONTACT SECTION -->
+
+<div id="contact">
+	<div class="container-fluid">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Contact Me</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<p>If you would like to get into contact to discuss any of my eperiences further or how I can help you in your business, please submit the below form and I will be in touch with you shortly.</p>
+				</div>
+			</div>
+			<div class="row contact_bottom">
+				<div class="col-sm-6">
+					<div class="col-sm-12 contact_form">
+						<form action="">
+							<div class="form-group">
+								<label for=""> Name:
+									<span class="required">
+
+									</span>
+								</label>
+								<input type="name" class="form-control" placeholder="Enter Name">
+							</div>
+							<div class="form-group">
+								<label for=""> Email:
+									<span class="required"></span>
+								</label>
+								<input type="email" class="form-control" placeholder="Enter your email address">
+							</div>
+							<div class="form-group">
+								<label for=""> Subject:
+									<span class="required"></span>
+								</label>
+								<input type="text" class="form-control" placeholder="Enter your subject">
+							</div>
+							<div class="form-group">
+								<label for="">Message:
+									<span class="required">
+
+									</span>
+								</label>
+								<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="What do you want?"></textarea></div>
+							<div class="checkbox">
+								<label for="robot_check">
+									<input type="checkbox">I'm not a robot
+								</label>
+								</div>
+							<button type="submit" class="btn btn-default center-block">
+								
+								Send Message
+
+							</button>
+							<p class="text-center" id="contact_fine_print">All fields marked 
+								
+								<span class="required"> are mandatory</span>
+							</p>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<address>
+						<strong>
+							Chris Lieder:
+
+                        </strong>
+                        <p>700 Van Ness Ave, Fresno, CA 93721</p>      
+                        </address>
+                        <!-- Add font awesome icons -->
+                        <a href="www.facebook.com/cjlieder" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/christopher-lieder-594a211a" class="fa fa-linkedin"></a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- javascript	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
