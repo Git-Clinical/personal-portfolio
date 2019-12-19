@@ -1,0 +1,291 @@
+/* .container-fluid {
+   padding: 0;
+   margin: 0;
+} */
+
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* NAVBAR STYLING */
+
+.navbar {
+   background-color: transparent;
+   border: none;
+}
+
+.nav li a:hover,
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border: none;
+}
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-collapse {
+border: none;
+}
+/* background-color: rgb(20,20,20,.5); */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: lightgray;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav >li > a {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: lightgray;
+    background-color: transparent;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+    height: 40px;
+}
+/* End of Navbar styling */
+
+/* Start of carousel styling */
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('../img/programming1.jpg');
+}
+.main_img2 {
+    background-image: url('../img/family.jpg');
+}
+.main_img3 {
+    background-image: url('../img/guitar.jpg');
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: transparent;
+}
+
+.carousel-caption {
+    top: 40%;
+    Bottom: auto;
+    color: white;
+    font-size: 16px;
+    text-shadow: 3px 3px 9px #0a0a0a;
+
+}
+/* End of Carousel Styling */
+
+/* About Me Styling */
+
+
+#about_me, #resume, #portfolio, #contact {
+    min-height: 220px;
+}
+#about_me {
+    Background-color: white;
+}
+#about_me h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 4rem;
+}
+
+#about_me p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* Portfolio Styling */
+.center_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#portfolio {
+    background-image: url('../img/galaxy.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#portfolio .center {
+    margin: 0 auto;
+    float: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#portfolio h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    color: white;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#portfolio p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/* End of Portfolio Styling */
+
+#resume {
+    background-image: url('../img/white-linen-paper-texture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+
+#resume h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+}
+
+/* End of resume styling */
+
+/* Contact Form Styling */
+.contact_form {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: gray;
+}
+
+#contact {
+    background-color: gray;
+    color: #fff;
+}
+
+#contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+#contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#contact_fine_print {
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+address {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+@media(max-width: 768px) {
+    
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #0077B5;
+    color: white;
+  }
+
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  } */
+
+.required::after {
+    content: '*';
+    color: black;
+    font-size: 2rem;
+}
+
+/* End Contact Styling Section */
